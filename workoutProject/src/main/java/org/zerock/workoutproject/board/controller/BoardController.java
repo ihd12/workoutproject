@@ -25,7 +25,9 @@ public class BoardController {
     }
 
     @GetMapping("/add")
-    public void register(PageRequestDTO req) {}
+    public void register(PageRequestDTO req) {
+
+    }
 
     @PostMapping("/add")
     public String register(@Valid BoardDTO dto, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
